@@ -537,7 +537,7 @@ def Cohen_d(group1, group2):
     return d
 ```
 
-Computing the denominator is a little complicated; in fact, people have proposed several ways to do it.  [Here](https://rpsychologist.com/d3/cohend/) is a brief description on using standardisers while calculating Cohen's $d$ for standard effect sizes.  
+Computing the denominator is a little complicated; in fact, people have proposed several ways to do it.  [Here](https://scientificallysound.org/2017/07/13/cohens-d-standardiser/) is a brief description on using standardisers while calculating Cohen's $d$ for standard effect sizes.  
 
 This implementation uses the "pooled standard deviation", which is a weighted average of the standard deviations of the two groups.
 
@@ -564,7 +564,7 @@ Most people don't have a good sense of how big $d=2.0$ is. If you are having tro
 
 >**Large Effect = 0.8**
 
-Here is as excellent online visualisation tool developed by [Kristoffer Magnusson](http://rpsychologist.com/so) to help interpret the results of cohen's $d$ statistic. 
+Here is as excellent online visualisation tool developed by [Kristoffer Magnusson](https://rpsychologist.com/d3/cohend/) to help interpret the results of cohen's $d$ statistic. 
 
 Following function that takes Cohen's $d$, plots normal distributions with the given effect size, and prints their overlap and superiority.
 
