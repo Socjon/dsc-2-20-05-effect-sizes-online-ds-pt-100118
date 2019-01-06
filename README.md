@@ -537,7 +537,7 @@ def Cohen_d(group1, group2):
     return d
 ```
 
-Computing the denominator is a little complicated; in fact, people have proposed several ways to do it.  [Here](https://scientificallysound.org/2017/07/13/cohens-d-standardiser/) is a brief description on using standardisers while calculating Cohen's $d$ for standard effect sizes.  
+Computing the denominator is a little complicated; in fact, people have proposed several ways to do it.  [Here](https://rpsychologist.com/d3/cohend/) is a brief description on using standardisers while calculating Cohen's $d$ for standard effect sizes.  
 
 This implementation uses the "pooled standard deviation", which is a weighted average of the standard deviations of the two groups.
 
